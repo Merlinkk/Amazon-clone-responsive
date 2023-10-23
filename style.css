@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #E3E6E6;
+}
+#nav-1{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+select,option{
+    color: black;
+}
+#searchbar{
+    display: flex;
+    align-items: center;
+}
+#logo_location{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    padding: 5px;
+}
+#navitems{
+    display: flex;
+}
+#all{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 5px 0px 0px 5px;
+    border: 0;
+    background-color: #E6E6E6;
+    border-right: #CDCDCD;
+}
+#searchfield{
+    height: 6vh;
+    width: 50vw;
+    border: 0;
+}
+#search_icon{
+    background-color: #FBBE67;
+    height: 4vh;
+    padding: 7px;
+    top: 2px;
+    position: relative;
+    border-radius: 0px 5px 5px 0px;
+}
+#navitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22vw;
+}
+#nav-2{
+    background-color: #243040;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6vh;
+
+}
+#nav-2 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    
+}
+#nav-2 a:hover{
+    border: 1px solid white;
+}
+
+#nav-2 #navleft{
+width: 6%;
+}
+#nav-2 #navcenter{
+    display: flex;
+    width: 92%;
+    justify-content: space-between;
+}
+#nav-2 #navright{
+    display: flex;
+    align-items: center;
+}
+#left_center{
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+#nav-2 #navright div{
+    padding: 5px;
+}
+#container{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9)), url(./assets/background1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 97vw;
+    position: relative;
+    left:13px;
+}
+#container-right-arrow{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+}
+#container-left-arrow{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    padding-top: 50px;
+    padding-bottom:50px ;
+}
+#container-right-arrow:hover, #container-left-arrow:hover{
+    border: 1px solid white;  
+}
+#div1,#div2,#div3{
+    width: 22%;
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+#div4{
+    text-align: center;
+}
+#inside-container{
+    background-color: white;
+    padding: 15px;
+}
+
+#divs{
+    display: flex;
+    position: relative;
+    top: 40%;
+    justify-content: space-around;
+    max-width: 1800px;
+}
+.align{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+#divs h2{
+    font-size: 20px;
+    padding: 5px;
+}
+#divs a{
+    text-decoration: none;
+    color: #77A2AB;
+}
+input[type="submit"]{
+    background-color: #FED813;
+    border: 0;
+    width: 80%;
+    height: 4vh;
+    border-radius: 5px;
+}
+#pageall{
+    display: flex;
+    list-style-type: none;
+}
+
+#hello{
+    color: #6F7C83;
+    font-size: 13px;
+}
+#prime_day{
+    display: inline-block;
+}
+.picturetext{
+    color: #838383;
+    font-size: 13px;
+}
+#location{
+    display: flex;
+}
+
+
+#nav-1-alt{
+    display: flex;
+    align-items: center;
+    background-color: #232F3E;
+    justify-content: space-between;
+    color: white;
+    width: 100vw;
+}
+#logo-alt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+}
+#sign-alt{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    justify-content: space-around;
+    font-weight: 15px;
+    font-size: 20px;
+}
+#navsearch{
+    text-align: center;
+    background-color: #232F3E;
+    padding: 5px;
+}
+#search-alt{
+    width: 98vw;
+    height: 6vh;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#searchiconalt{
+    position: absolute;
+    top: 55px;
+    height: 3vh;
+    right: 5px;
+    background-color: #FBBE67;
+    padding: 11px;
+    border-radius: 10px;
+}
+#shopby{
+    display: flex;
+    background-color: #232F3E;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    padding: 5px;
+}
+#shopby div{
+    padding-right: 20px;
+}
+
+#nav-1-alt,#shopby,#navsearch{
+    display: none;
+}
+#banner-alt{
+    background-image: url('./assets/banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: none;
+    margin-bottom: 20px;
+}
+#location-alt{
+    background-color: #37475A;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+#location-alt div{
+    padding-right: 10px;
+    
+}
+
+#divs-alt{
+    margin-left: 20%;
+    display: none;
+    width: 60vw;
+}
+.align-alt{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    column-gap: 10px;
+    
+}
+
+#div1-alt,#div2-alt,#div3-alt,#div4-alt{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+@media (max-width: 1375px){
+    #navitems{
+        display: flex;
+        justify-content: space-around;
+    }
+    #all,#indiaFlag{
+        display: none;
+    }
+    #returnOrders{
+        display: none;
+    }
+    #searchfield{
+        height: 6vh;
+        /* width: 40vw; */
+        max-width: auto;
+        border-radius: 10px 0px 0px 10px;
+    }
+    #search_icon{
+        height: 3.6vh;
+    }
+    #location{
+        display: none;
+    }
+    #nav-1{
+        width: 100%;
+    }
+    #nav-2 #navright{
+        display: none;
+    }
+    #nav-2 #left_center{
+        width: 100%;
+    }
+    #divs{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        column-gap: 20px;
+        row-gap: 50px;
+    }
+    #div1,#div2,#div3{
+        height: 100%;
+        width: 100%;
+    }
+    #container{
+        background-position: center;
+    }
+}
+
+@media (max-width: 1100px){
+    #container{
+        background-position:top;
+        background-size:auto;
+    }
+    #cart{
+        display: none;
+    }
+    .locationpin{
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    #container{
+        display: none;
+    }
+    #nav-1{
+        display: none;
+    }
+    #nav-2{
+        display: none;
+    }
+    #nav-1-alt,#shopby,#navsearch{
+        display: flex;
+    }
+    body{
+        background-color: #FFE084;
+    }
+    #location-alt,#banner-alt{
+        display: flex;
+    }
+    #divs-alt{
+        display: block;
+    }
+}
