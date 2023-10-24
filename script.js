@@ -50,3 +50,35 @@ back.onclick = () =>{
             break;
     }
 }
+
+const cross = document.getElementById('crossimg')
+
+const sidebar = document.getElementById('sidebarall')
+
+const all = document.getElementById('navleft')
+
+sidebar.style.display = 'none'
+
+const rest = document.getElementById('rest')
+
+const allAlt = document.getElementById('all-alt')
+
+rest.onclick = () =>{
+    sidebar.style.display = 'none'
+    document.body.style.overflow = 'visible'
+} 
+
+all.onclick = () =>{
+    sidebar.style.display = 'flex'
+    document.body.style.overflow = 'hidden'
+}
+
+cross.onclick = () =>{
+    sidebar.style.display = 'none'
+    document.body.style.overflow = 'visible'
+}
+
+allAlt.onclick = () =>{
+    sidebar.style.display = 'flex'
+    document.body.style.overflow = 'hidden'
+}
